@@ -1,3 +1,5 @@
+package main.java.es.ull.app;
+
 import bagel.Image;
 import bagel.util.Point;
 import bagel.util.Rectangle;

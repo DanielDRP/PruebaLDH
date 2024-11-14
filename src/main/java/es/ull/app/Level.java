@@ -1,3 +1,5 @@
+package main.java.es.ull.app;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -30,46 +32,46 @@ public class Level {
                 Point point = new Point(Integer.parseInt(cells[1]), Integer.parseInt(cells[2]));
 
                 switch (cells[0]) {
-                    case "Player":
+                    case "main.java.es.ull.app.Player":
                         player = new Player(point);
                         break;
-                    case "Bus":
+                    case "main.java.es.ull.app.Bus":
                         walls.add(new Bus(point));
                         break;
-                    case "Tram":
+                    case "main.java.es.ull.app.Tram":
                         walls.add(new Tram(point));
                         break;
-                    case "Train":
+                    case "main.java.es.ull.app.Train":
                         walls.add(new Train(point));
                         break;
-                    case "GhostRed":
+                    case "main.java.es.ull.app.GhostRed":
                         ghosts.add(new GhostRed(point));
                         break;
-                    case "GhostBlue":
+                    case "main.java.es.ull.app.GhostBlue":
                         ghosts.add(new GhostBlue(point));
                         break;
-                    case "GhostGreen":
+                    case "main.java.es.ull.app.GhostGreen":
                         ghosts.add(new GhostGreen(point));
                         break;
-                    case "GhostPink":
+                    case "main.java.es.ull.app.GhostPink":
                         ghosts.add(new GhostPink(point));
                         break;
-                    case "GhostTuka":
+                    case "main.java.es.ull.app.GhostTuka":
                         ghosts.add(new GhostTuka(point));
                         break;
-                    case "Shield":
+                    case "main.java.es.ull.app.Shield":
                         shields.add(new Shield(point));
                         break;
-                    case "Pizza":
+                    case "main.java.es.ull.app.Pizza":
                         pizzas.add(new Pizza(point));
                         break;
-                    case "Star":
+                    case "main.java.es.ull.app.Star":
                         stars.add(new Star(point));
                         break;
-                    case "Bomb":
+                    case "main.java.es.ull.app.Bomb":
                         bombs.add(new Bomb(point));
                         break;
-                    case "TimeFreeze":
+                    case "main.java.es.ull.app.TimeFreeze":
                         timeFreezes.add(new TimeFreeze(point));
                         break;
                     default:

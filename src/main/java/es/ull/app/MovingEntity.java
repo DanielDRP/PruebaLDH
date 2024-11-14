@@ -1,3 +1,5 @@
+package main.java.es.ull.app;
+
 import bagel.util.Point;
 
 import java.util.ArrayList;

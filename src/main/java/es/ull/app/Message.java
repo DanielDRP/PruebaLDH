@@ -1,3 +1,5 @@
+package main.java.es.ull.app;
+
 import bagel.Font;
 import bagel.Image;
 import bagel.util.Point;
@@ -85,7 +87,7 @@ public class Message {
     }
 
     /**
-     * Method used to draw the instructions before Level 1
+     * Method used to draw the instructions before main.java.es.ull.app.Level 1
      */
     public static void instructionLevel0() {
         LEVEL_INS_FONT.drawString("LEVEL 0", LEVEL_INS_POINT.x, LEVEL_INS_POINT.y);
@@ -93,7 +95,7 @@ public class Message {
     }
 
     /**
-     * Method used to draw the instructions before Level 1
+     * Method used to draw the instructions before main.java.es.ull.app.Level 1
      */
     public static void instructionLevel1() {
         LEVEL_INS_FONT.drawString("LEVEL 1", LEVEL_INS_POINT.x, LEVEL_INS_POINT.y);
@@ -101,7 +103,7 @@ public class Message {
     }
 
     /**
-     * Method used to draw the instructions before Level 2
+     * Method used to draw the instructions before main.java.es.ull.app.Level 2
      */
     public static void instructionLevel2() {
         LEVEL_INS_FONT.drawString("LEVEL 2", LEVEL_INS_POINT.x, LEVEL_INS_POINT.y);

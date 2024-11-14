@@ -1,3 +1,5 @@
+package main.java.es.ull.app;
+
 import bagel.Font;
 import bagel.Image;
 import bagel.util.Point;
